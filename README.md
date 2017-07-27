@@ -16,3 +16,8 @@ hotfix 的核心代码，主要类为 ``HotFix.java``；
 
 ## 小结
 - Dalvik（一般 API Level 21 下）才会有 ``pre-verify`` 标志，才需要插桩操作来绕过校验，Art 下并没有这个 ``pre-verify`` 操作，也意味着可以不用进行插桩操作。
+
+## 博客
+1. [代码热修复探究(Part 1)](http://huangjiawen.cn/android/%E4%BB%A3%E7%A0%81%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%8E%A2%E7%A9%B6(Part%201)/)
+2. [资源热修复探究(Part 2)](http://huangjiawen.cn/android/%E8%B5%84%E6%BA%90%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%8E%A2%E7%A9%B6(Part%202)/)
+3. [SO 库修复探究(Part 3)](http://huangjiawen.cn/android/SO%E5%BA%93%E7%83%AD%E4%BF%AE%E5%A4%8D%E6%8E%A2%E7%A9%B6(Part%203)/)
